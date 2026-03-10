@@ -44,3 +44,7 @@ because it is output by the KDF.
 ## License
 
 The code is released under the **MIT License**. You may use, copy, and modify it, provided you keep the copyright and license notice.
+
+## Authon/date
+
+Danilo Gligoroski / 10 March 2026
