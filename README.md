@@ -50,7 +50,7 @@ Compared with the earlier design-scaffold versions:
 
 - it is **standalone**,
 - it preserves the current comments and structure of the 2D design,
-- it includes the **Campaign 3 perturbation hook** via `xseed0` and `xseed1`,
+- it includes the **a perturbation hook** via `xseed0` and `xseed1`,
 - and it keeps the diagnostic functions for:
   - commutativity,
   - swap-basis collapse,
