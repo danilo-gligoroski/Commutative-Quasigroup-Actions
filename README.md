@@ -111,12 +111,21 @@ A typical run prints:
 - the main parameter set,
 - the chosen tags and x-seeds,
 - the public base vector `G`,
+- the public key size in bytes,
+- the total KEX transcript size in bytes (`A_pub || B_pub`),
 - the two public keys,
 - the two copies of the shared secret,
 - a commutativity check,
 - a transcript-bound session key,
 - degeneracy diagnostics in the swap basis,
 - and the direct `Delta(G)` recovery diagnostic.
+
+For this 2D design:
+
+- each public key is a 2-coordinate vector,
+- each coordinate uses `ceil(proj_w / 8)` bytes,
+- so one public key uses `2 * ceil(proj_w / 8)` bytes,
+- and the basic unauthenticated key-exchange transcript `(A_pub || B_pub)` uses `4 * ceil(proj_w / 8)` bytes.
 
 ---
 
