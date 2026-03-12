@@ -88,7 +88,7 @@ python3 cqa_2d_kex.py --help
 python3 cqa_2d_kex.py         --base-w 128         --tweak 0         --delta 2         --degree 3         --arity 4         --rounds 2         --scalar-rounds 1         --family-seed 12345         --tau0 1         --tau1 3         --xseed0 1         --xseed1 1         --g1 5         --g2 7         --seedA 111         --seedB 222
 ```
 
-### 2) Run a Campaign 3-style perturbed instance
+### 2) Run a perturbed instance
 
 ```bash
 python3 cqa_2d_kex.py         --base-w 128         --tweak 0         --delta 2         --degree 3         --arity 4         --rounds 2         --scalar-rounds 1         --family-seed 12345         --tau0 17         --tau1 91         --xseed0 123456789         --xseed1 987654321         --g1 5         --g2 7         --seedA 111         --seedB 222
