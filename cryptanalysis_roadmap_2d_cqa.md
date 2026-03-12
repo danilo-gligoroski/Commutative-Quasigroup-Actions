@@ -9,7 +9,7 @@ P_K = M_K^{\,r}(G) \in R_w^2,
 \qquad
 M_K = \lambda_0(K) I + \lambda_1(K) S,
 \qquad
-S = \begin{bmatrix}0 & 1\1 & 0\end{bmatrix}.
+S = \begin{bmatrix}0 & 1\1 & 0\end{bmatrix}.
 \]
 
 The purpose of this note is to separate:
