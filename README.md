@@ -83,11 +83,14 @@ python3 cqa_kex_poc_general_k.py --base-w 512 --family-seed 42 --arity 7 --degre
 
 Always verify commutativity when using new parameter sets.
 
-## Paper
 
-The mathematical foundations are described in:
+## Paper (Draft)
 
+The mathematical foundations are described in the following draft:
 > Danilo Gligoroski, *Commutative m-ary Quasigroup Actions in a 2-adic Regime: A CSIDH-like Commutative-Action Candidate and a Key Exchange Protocol*, 2026.
+
+**[cqa_07.pdf](https://github.com/danilo-gligoroski/Commutative-Quasigroup-Actions/blob/main/cqa_07.pdf)** — Draft version (May 2026)
+
 
 ## License
 
